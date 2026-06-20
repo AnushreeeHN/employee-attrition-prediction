@@ -12,7 +12,7 @@ st.write("Enter employee details to estimate attrition risk.")
 
 # --- Collect key inputs from the user ---
 age = st.slider("Age", 18, 60, 30)
-monthly_income = st.number_input("Monthly Income", 1000, 20000, 5000)
+monthly_income = st.number_input("Monthly Income", 1000, 100000, 5000)
 distance_from_home = st.slider("Distance From Home (km)", 1, 30, 5)
 total_working_years = st.slider("Total Working Years", 0, 40, 5)
 years_at_company = st.slider("Years At Company", 0, 40, 3)
